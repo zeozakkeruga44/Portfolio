@@ -119,6 +119,10 @@ blockquote {
   font-weight: 500;
 }
 
+.txt-aln-right {
+  text-align: right;
+}
+
 .bloom-1 {
   position: absolute;
   left: 0%;
