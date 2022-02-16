@@ -3090,6 +3090,10 @@ blockquote {
     font-size: 70px;
   }
 
+  .hero-person {
+    display: none;
+  }
+
   .licence-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -3284,10 +3288,6 @@ blockquote {
 
   .hero-heading {
     font-size: 50px;
-  }
-
-  .hero-person {
-    display: none;
   }
 
   .project-image {
