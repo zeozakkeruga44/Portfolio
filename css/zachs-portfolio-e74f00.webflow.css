@@ -107,7 +107,12 @@ blockquote {
   margin-bottom: 24px;
   padding: 60px 100px;
   border-left: 5px solid #e2e2e2;
-  background-image: linear-gradient(92deg, #ff7967, rgba(255, 121, 103, 0.33) 62%, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(
+    92deg,
+    #ff7967,
+    rgba(255, 121, 103, 0.33) 62%,
+    hsla(0, 0%, 100%, 0)
+  );
   color: #fff;
   font-size: 16px;
   line-height: 32px;
@@ -284,7 +289,13 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#090b23), to(rgba(9, 11, 35, 0)));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#090b23),
+    to(rgba(9, 11, 35, 0))
+  );
   background-image: linear-gradient(180deg, #090b23, rgba(9, 11, 35, 0));
 }
 
@@ -534,7 +545,13 @@ blockquote {
 .testimonial-section {
   overflow: hidden;
   padding: 140px 3% 100px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#090b23), to(hsla(0, 0%, 100%, 0)));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#090b23),
+    to(hsla(0, 0%, 100%, 0))
+  );
   background-image: linear-gradient(180deg, #090b23, hsla(0, 0%, 100%, 0));
 }
 
@@ -627,7 +644,13 @@ blockquote {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ff7967));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent),
+    to(#ff7967)
+  );
   background-image: linear-gradient(180deg, transparent, #ff7967);
 }
 
@@ -907,7 +930,7 @@ blockquote {
 .footer-section {
   padding: 140px 3% 40px;
   border-top: 4px solid #ff7967;
-  background-image: url('../images/Header-Shape-Vector.svg');
+  background-image: url("../images/Header-Shape-Vector.svg");
   background-position: 100% 100%;
   background-size: contain;
   background-repeat: repeat-x;
@@ -1106,7 +1129,7 @@ blockquote {
 .contact-section {
   padding: 220px 3% 140px;
   border-top: 4px solid #ff7967;
-  background-image: url('../images/Gradient-Corner-01.svg');
+  background-image: url("../images/Gradient-Corner-01.svg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1155,7 +1178,8 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: linear-gradient(113deg, transparent, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: linear-gradient(113deg, transparent, #000116),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
   background-repeat: repeat, repeat;
@@ -1206,7 +1230,8 @@ blockquote {
   border-style: solid;
   border-width: 5px;
   border-color: #000116;
-  background-image: linear-gradient(115deg, transparent, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: linear-gradient(115deg, transparent, #000116),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
   background-repeat: repeat, repeat;
@@ -1841,7 +1866,8 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: linear-gradient(103deg, transparent, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: linear-gradient(103deg, transparent, #000116),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
   background-repeat: repeat, repeat;
@@ -1849,8 +1875,22 @@ blockquote {
 
 .project-grid-section {
   padding: 220px 3% 140px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 1, 22, 0.34)), color-stop(69%, rgba(0, 1, 22, 0.91)), to(#000116)), url('../images/Header-Shape-Vector.svg');
-  background-image: linear-gradient(180deg, rgba(0, 1, 22, 0.34), rgba(0, 1, 22, 0.91) 69%, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 1, 22, 0.34)),
+      color-stop(69%, rgba(0, 1, 22, 0.91)),
+      to(#000116)
+    ),
+    url("../images/Header-Shape-Vector.svg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 1, 22, 0.34),
+      rgba(0, 1, 22, 0.91) 69%,
+      #000116
+    ),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
   background-repeat: repeat, repeat;
@@ -2247,8 +2287,22 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, rgba(0, 1, 19, 0.86)), to(#000116)), url('../images/Header-Shape-Vector.svg');
-  background-image: linear-gradient(180deg, transparent, rgba(0, 1, 19, 0.86) 85%, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      color-stop(85%, rgba(0, 1, 19, 0.86)),
+      to(#000116)
+    ),
+    url("../images/Header-Shape-Vector.svg");
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(0, 1, 19, 0.86) 85%,
+      #000116
+    ),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 50% 0%;
   background-size: auto, 460px;
 }
@@ -2294,7 +2348,8 @@ blockquote {
   border-style: solid;
   border-width: 5px;
   border-color: #000116;
-  background-image: linear-gradient(115deg, transparent, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: linear-gradient(115deg, transparent, #000116),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
   background-repeat: repeat, repeat;
@@ -2383,7 +2438,8 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: linear-gradient(113deg, transparent, #000116), url('../images/Header-Shape-Vector.svg');
+  background-image: linear-gradient(113deg, transparent, #000116),
+    url("../images/Header-Shape-Vector.svg");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
   background-repeat: repeat, repeat;
@@ -2503,7 +2559,12 @@ blockquote {
 
 .block-quote {
   border-left-color: #080922;
-  background-image: linear-gradient(92deg, #ff7967, transparent 62%, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(
+    92deg,
+    #ff7967,
+    transparent 62%,
+    hsla(0, 0%, 100%, 0)
+  );
 }
 
 .slide {
@@ -2516,7 +2577,12 @@ blockquote {
   margin-left: 80px;
   padding-bottom: 60px;
   border-left-style: none;
-  background-image: linear-gradient(92deg, #ff7967, transparent 80%, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(
+    92deg,
+    #ff7967,
+    transparent 80%,
+    hsla(0, 0%, 100%, 0)
+  );
   text-align: left;
 }
 
@@ -2533,7 +2599,12 @@ blockquote {
   padding-bottom: 60px;
   padding-left: 100px;
   border-left-style: none;
-  background-image: linear-gradient(92deg, #ff7967, transparent 80%, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(
+    92deg,
+    #ff7967,
+    transparent 80%,
+    hsla(0, 0%, 100%, 0)
+  );
   text-align: left;
 }
 
@@ -2547,7 +2618,12 @@ blockquote {
   margin-left: 80px;
   padding-bottom: 60px;
   border: 1px none #000;
-  background-image: linear-gradient(92deg, #ff7967, transparent 80%, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(
+    92deg,
+    #ff7967,
+    transparent 80%,
+    hsla(0, 0%, 100%, 0)
+  );
   text-align: left;
 }
 
@@ -2574,7 +2650,8 @@ blockquote {
 .grid {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  grid-template-areas: "Area-1 Area-2"
+  grid-template-areas:
+    "Area-1 Area-2"
     "Area-3 Area-4";
 }
 
@@ -2731,7 +2808,7 @@ blockquote {
   }
 
   .hero-person {
-    display: none;
+    display: flex;
   }
 
   .right-arrow {
@@ -3381,4 +3458,3 @@ blockquote {
     grid-column-end: span 1;
   }
 }
-
