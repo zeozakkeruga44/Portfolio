@@ -123,6 +123,10 @@ blockquote {
   text-align: right;
 }
 
+.txt-aln-center {
+  text-align: center;
+}
+
 .bloom-1 {
   position: absolute;
   left: 0%;
